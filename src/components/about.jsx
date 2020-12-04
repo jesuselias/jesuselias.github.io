@@ -42,7 +42,7 @@ class About extends React.Component {
         {
           id: "C#_skill",
           content: "C#",
-          porcentage: "80%",
+          porcentage: "60%",
           value: "80"
         },
         {
@@ -62,7 +62,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Innovador e implementador en el desarrollo de software dedicado al estudio, practica y al conocimiento del ambito de la informatica"
+            "Innovative and implementer in the development of software dedicated to the study, practice and knowledge of the field of computer science"
         },
         {
           id: "second-p-about",
