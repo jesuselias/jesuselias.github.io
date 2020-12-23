@@ -116,19 +116,23 @@ class Contact extends React.Component {
                                 <li><span class="ion-email"></span> contact@example.com</li>
                                 </ul> --> */}
                       </div>
+                      <br></br>
+                      <br></br>
+                      <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Contact me</h5>
+                      </div>
+                      <div className="more-info">
+                        <h5>Telefono:</h5>
+                        <a >
+                            +584245989356
+                        </a>
+                        <h5>Correo:</h5>
+                        <a >
+                            jesus.e.elias.s@gmail.com
+                        </a>
+                      </div>
                       <div className="socials">
                         <ul>
-                          {/* <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li> */}
                           <li>
                             <a
                               href="https://github.com/jesuselias"
@@ -152,19 +156,6 @@ class Contact extends React.Component {
                             </a>
                           </li>
                         </ul>
-                      </div>
-                      <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Contact me</h5>
-                      </div>
-                      <div className="more-info">
-                        <h5>Telefono:</h5>
-                        <a >
-                            +584245989356
-                        </a>
-                        <h5>Correo:</h5>
-                        <a >
-                            jesus.e.elias.s@gmail.com
-                        </a>
                       </div>
 
                     </div>
