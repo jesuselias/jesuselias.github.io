@@ -153,6 +153,20 @@ class Contact extends React.Component {
                           </li>
                         </ul>
                       </div>
+                      <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Contact me</h5>
+                      </div>
+                      <div className="more-info">
+                        <h5>Telefono:</h5>
+                        <a >
+                            +584245989356
+                        </a>
+                        <h5>Correo:</h5>
+                        <a >
+                            jesus.e.elias.s@gmail.com
+                        </a>
+                      </div>
+
                     </div>
                   </div>
                 </div>
