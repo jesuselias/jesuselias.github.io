@@ -2,7 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import styled from "styled-components"
-import logo1 from "../img/foto-perfil-3.png";
+import logo1 from "../img/foto-perfil-5.png";
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -30,16 +30,16 @@ class Intro extends React.Component {
             <div className="image">
                         <Img src={logo1} />
                     </div>
-              <h2 className="intro-title xs-4">Hello, I am Jesus Elias</h2>
-              <Title>Informatics Engineer</Title>
+              <h2 className="intro-title xs-4">Hola, soy Jesus Elias</h2>
+              <Title>Ingeniero en Informática</Title>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Software Engineer"
+                      "Full-Stack Developer",
+                      "Mobil Developer",
+                      "Software Engineer",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -54,7 +54,7 @@ class Intro extends React.Component {
                   href="#work"
                   role="button"
                 >
-                  View My Work
+                  Mi Trabajo
                 </a>
               </p>
             </div>

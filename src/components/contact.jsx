@@ -1,8 +1,77 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { actionSaveInfoUser } from '../actions/userAction';
+import Request from '../api';
 import imageOverlay from "../img/earth.jpg";
+import emailjs from '@emailjs/browser';
 
-class Contact extends React.Component {
-  render() {
+
+// const registering = useSelector(state => state.registration.registering);
+// const dispatch = useDispatch();
+
+// function handleChange(e) {
+//   const { name, value } = e.target;
+//   setUser(user => ({ ...user, [name]: value }));
+//   console.log(user)
+// }
+
+// const dispatcher = useDispatch();
+
+// let { user } = useSelector(({ user }) => user);
+
+// function handleSubmit(e) {
+//   e.preventDefault();
+
+//   setSubmitted(true);
+//   if (username && email && subject && message) {
+//       dispatcher(actionSaveInfoUser.register(user));
+//   }
+// }
+
+function Contact () {
+  
+const form = useRef();
+
+const [username, changeUserName] = useState('');
+const [email, changeEmail] = useState('');
+const [subject, changeSubject] = useState('');
+const [message, changeMessage] = useState('');
+
+const [submitted, setSubmitted] = useState(false);
+// const registering = useSelector(state => state.registration.registering);
+// const dispatch = useDispatch();
+
+// function handleChange(e) {
+//   const { name, value } = e.target;
+//   setUser(user => ({ ...user, [name]: value }));
+//   console.log(user)
+// }
+
+const sendEmail = (e) => {
+  e.preventDefault();
+  emailjs.sendForm('service_y6232ba', 'template_6p557yw', form.current, 'rSi7ORVYIvUQ2JrVf')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
+
+//linea que comente para usar el email
+
+// const dispatcher = useDispatch();
+
+// let { user } = useSelector(({ user }) => user);
+
+// function handleSubmit(e) {
+//   e.preventDefault();
+
+//   setSubmitted(true);
+//   if (username && email && subject && message) {
+//       dispatcher(actionSaveInfoUser.register(user));
+//   }
+// }
+
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -17,13 +86,16 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Enviar mensaje</h5>
                       </div>
+                      
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
-                          method="POST"
-                          className="contactForm"
+                          // action="https://formspree.io/xdoeonlo"
+                          onSubmit={sendEmail}
+                          ref={form}
+                          // method="POST"
+                          // className="contactForm"
                         >
                           <div id="sendmessage">
                             Your message has been sent. Thank you!
@@ -34,12 +106,18 @@ class Contact extends React.Component {
                               <div className="form-group">
                                 <input
                                   type="text"
-                                  name="name"
+                                  name="from_name"
                                   className="form-control"
-                                  id="name"
-                                  placeholder="Your Name"
+                                  // id="name"
+                                  placeholder="nombre"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 4 chars"
+                                  // value={user.username} 
+                                  // onChange={(text) => { 
+                                  //   changeUserName({ username: text})
+                                  //     user.username = text;
+                                  //     dispatcher(actionSaveInfoUser(user.username));
+                                  //   }}
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -49,11 +127,17 @@ class Contact extends React.Component {
                                 <input
                                   type="email"
                                   className="form-control"
-                                  name="email"
-                                  id="email"
-                                  placeholder="Your Email"
+                                  name="to_name"
+                                  // id="email"
+                                  placeholder="Email"
                                   data-rule="email"
                                   data-msg="Please enter a valid email"
+                                  // value={user.email} 
+                                  // onChange={(text) => { 
+                                  //   changeEmail({ email: text})
+                                  //     user.email = text;
+                                  //     dispatcher(actionSaveInfoUser(user));
+                                  //   }}
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -63,11 +147,17 @@ class Contact extends React.Component {
                                 <input
                                   type="text"
                                   className="form-control"
-                                  name="subject"
-                                  id="subject"
-                                  placeholder="Subject"
+                                  name="reply_to"
+                                  // id="subject"
+                                  placeholder="Asunto"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 8 chars of subject"
+                                  // value={user.subject} 
+                                  // onChange={(text) => { 
+                                  //   changeSubject({ subject: text})
+                                  //     user.subject = text;
+                                  //     dispatcher(actionSaveInfoUser(user));
+                                  //   }}
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -80,7 +170,13 @@ class Contact extends React.Component {
                                   rows="5"
                                   data-rule="required"
                                   data-msg="Please write something for us"
-                                  placeholder="Message"
+                                  placeholder="Mensaje"
+                                  // value={user.message} 
+                                  // onChange={(text) => { 
+                                  //   changeMessage({ message: text})
+                                  //     user.message = text;
+                                  //     dispatcher(actionSaveInfoUser(user));
+                                  //   }}
                                 ></textarea>
                                 <div className="validation"></div>
                               </div>
@@ -90,7 +186,7 @@ class Contact extends React.Component {
                                 type="submit"
                                 className="button button-a button-big button-rouded"
                               >
-                                Send Message
+                                Enviar mensaje
                               </button>
                             </div>
                           </div>
@@ -98,39 +194,31 @@ class Contact extends React.Component {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">project links</h5>
+                      {/* <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Enlaces de proyectos</h5>
                       </div>
                       <div className="more-info">
-                        <h5>Portal Prospecto</h5>
-                        <a >
-                            https://cearchdev.azurewebsites.net/
+                        <a href='https://cearchdev.azurewebsites.net/' >
+                          Portal Prospecto
                         </a>
-                        <h5>Tickets Quality</h5>
-                        <a >
-                            https://tkad-ft-dev.azurewebsites.net/#/
+                       <br />
+                        <a href='https://tkad-ft-dev.azurewebsites.net/#/'>
+                          Ticket Quality
                         </a>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
                       </div>
                       <br></br>
-                      <br></br>
+                      <br></br> */}
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Contact me</h5>
+                        <h5 className="title-left">Contacto</h5>
                       </div>
-                      <div className="more-info">
-                        <h5>Telefono:</h5>
-                        <a >
-                            +584245989356
-                        </a>
-                        <h5>Correo:</h5>
-                        <a >
-                            jesus.e.elias.s@gmail.com
-                        </a>
-                      </div>
+                      <br />
+                      <ul class="list-ico">
+                        <li><span class="ion-ios-location"></span> Venezuela Estado Lara</li>
+                        <li><span class="ion-ios-telephone"></span> +584245989356</li>
+                        <li><span class="ion-email"></span> jesus.e.elias.s@gmail.com</li>
+                        <li><span class="ion-email"></span> jesus_e1992@hotmail.com</li>
+                      </ul>
+                      <br />
                       <div className="socials">
                         <ul>
                           <li>
@@ -178,6 +266,6 @@ class Contact extends React.Component {
       </section>
     );
   }
-}
+
 
 export default Contact;

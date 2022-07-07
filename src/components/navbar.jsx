@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/full-stack2.png";
-import logo2 from "../img/full-stack2.png";
+import logo1 from "../img/in.png";
+import logo2 from "../img/in.png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -86,11 +86,11 @@ class Navbar extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll" href="#page-top">
+          <a className="navbar-brand js-scroll" href="https://www.linkedin.com/in/jesus-e-elias-s-8b0345148/">
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "70px" }}
+              style={{ maxWidth: "50px" }}
             />
           </a>
           <button
@@ -113,22 +113,22 @@ class Navbar extends React.Component {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link js-scroll active" href="#home">
-                  Home
+                  Inicio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  About
+                  Sobre mi
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Portafolio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>

@@ -6,8 +6,49 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: "90" },
-        { id: "sCSS_skill", content: "SCSS", porcentage: "75%", value: "75" },
+        { 
+          id: "Angular_skill", 
+          content: "Angular",
+          porcentage: "90%", 
+          value: "90" 
+        },
+        {
+          id: "VueJS_skill",
+          content: "VueJS",
+          porcentage: "90%",
+          value: "90"
+        },
+        {
+          id: "ReactJS_skill",
+          content: "ReactJS",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "React-Native_skill",
+          content: "React-Native",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "Materialize_skill",
+          content: "Materialize",
+          porcentage: "90%",
+          value: "90"
+        },
+        {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          porcentage: "90%",
+          value: "90"
+        },
+        { 
+          id: "CSS_skill", 
+          content: "CSS", 
+          porcentage: "90%", 
+          value: "90" 
+        },
+        
         {
           id: "JavaScript_skill",
           content: "JavaScript",
@@ -20,30 +61,23 @@ class About extends React.Component {
           porcentage: "90%",
           value: "90"
         },
-        { id: "Angular_skill", content: "Angular", porcentage: "80%", value: "80" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "VueJS_skill",
-          content: "VueJS",
-          porcentage: "90%",
-          value: "90"
+        { 
+          id: "HTML5_skill", 
+          content: "HTML5", 
+          porcentage: "90%", 
+          value: "90" 
         },
         {
           id: "NodeJS_skill",
           content: "NodeJS",
-          porcentage: "55%",
-          value: "55"
+          porcentage: "50%",
+          value: "50"
         },
         {
           id: "C#_skill",
           content: "C#",
-          porcentage: "60%",
-          value: "80"
+          porcentage: "40%",
+          value: "40"
         },
         {
           id: "Wordpress_skill",
@@ -62,18 +96,18 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Innovative and implementer in the development of software dedicated to the study, practice and knowledge of the field of computer science"
+            "Innovador e implementador en el desarrollo de software dedicado al estudio, práctica y conocimiento del campo de la informática."
         },
         {
           id: "second-p-about",
           content:
-            "Computer Engineer, outstanding as a JavaScript (MEAN, MERN, MEVN) full-stack developer, with work experience in Angular (TypeScript), VueJs (Vuetify), React (React-Native), PHP (Laravel), WordPress, C #, Nodejs, Photoshop (user interface and logo design). Computer engineering professional graduated from the Universidad Centro Occidental 'Lisandro Alvarado'."
+            "Ingeniero Informático, desarrollador con más experiencia laboral en el área de Front-End; Full-Stack de JavaScript y TypeScript (MEAN, MERN, MEVN), y aplicaciones móviles (React-Native), Experiencia en diversos sistemas de información orientados a la administración, manejo y análisis de datos... Con habilidades en detección y solución de problemas ."
         },
-        // {
-        //   id: "third-p-about",
-        //   content:
-        //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        // }
+        {
+          id: "third-p-about",
+          content:
+            "Profesional en ingeniería informática egresado de la Universidad Centro Occidental 'Lisandro Alvarado' (UCLA)"
+        }
       ]
     };
   }
@@ -130,7 +164,7 @@ class About extends React.Component {
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
+                        <h5 className="title-left">SOBRE MI</h5>
                       </div>
                       {this.state.about_me.map(content => {
                         return (

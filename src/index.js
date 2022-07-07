@@ -28,9 +28,26 @@ import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
+import { Provider } from 'react-redux';
+import configureStore from './store/store';
+
+
+import Axios from './api';
+
+const store = configureStore();
+
+// const apiUrlEnvVariables = {
+//     development: Config.REACT_APP_DEV_API_BASE_URL,
+//     production: Config.REACT_APP_PROD_API_BASE_URL,
+//     test: Config.REACT_APP_TEST_API_BASE_URL,
+//   };
+  
+  Axios.baseUrl = 'https://run.mocky.io';
+  console.log('1',Axios.baseUrl);
 
 
 ReactDOM.render(
+    <Provider store={store}>
     <React.Fragment>
         <Navbar />
         <Intro />
@@ -39,7 +56,8 @@ ReactDOM.render(
         <Contact />
         <BackToTop />
         <Preloader />
-    </React.Fragment>,
+    </React.Fragment>
+    </Provider>,
 document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
