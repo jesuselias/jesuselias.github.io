@@ -6,7 +6,7 @@ import imageOverlay from "../img/earth.jpg";
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-
+import useFields from "./useFields";
 
 // const registering = useSelector(state => state.registration.registering);
 // const dispatch = useDispatch();
@@ -30,14 +30,17 @@ import withReactContent from 'sweetalert2-react-content'
 //   }
 // }
 
+
 function Contact () {
+
+  
   
 const form = useRef();
 
 const MySwal = withReactContent(Swal)
 
 //------------------useState---------------
-// const [username, changeUserName] = useState('');
+// const [nombre, changeUserName] = useState('');
 // const [email, changeEmail] = useState('');
 // const [subject, changeSubject] = useState('');
 // const [message, changeMessage] = useState('');
@@ -52,22 +55,53 @@ const MySwal = withReactContent(Swal)
 //   setUser(user => ({ ...user, [name]: value }));
 //   console.log(user)
 // }
+const [searchItems, setSearchItems] = useState({
+  nombre: "",
+  email:"", 
+  asunto: "", 
+  mensaje:""
+});
+
+
+const [fields, handleFieldChange, getErrors, errors] = useFields({
+  ...searchItems
+});
+
 
 const sendEmail = (e) => {
   e.preventDefault();
+  getErrors();
+  if (fields.nombre === '' || fields.email === ''|| fields.asunto === '' || fields.mensaje === '') { 
+    MySwal.fire({
+      icon: 'warning',
+      title: 'Por favor complete los campos',
+      text: 'Para continuar con el envio del mesaje',
+      position: 'center',
+    })
+   }else {
   emailjs.sendForm('service_y6232ba', 'template_6p557yw', form.current, 'rSi7ORVYIvUQ2JrVf')
     .then((result) => {
-        console.log(result.text);
+        if(result.text === 'OK'){
         MySwal.fire({
           icon: 'success',
           title: 'Mensaje enviado con exito',
           text: 'Gracias por su mensaje, me comunico al correo enviado.',
           position: 'center',
         })
+      }
     }, (error) => {
+      MySwal.fire({
+        icon: 'warning',
+        title: 'Por favor complete todos los campos',
+        text: 'Para continuar con el envio del mesaje',
+        position: 'center',
+      })
         console.log(error.text);
     });
+  }
 };
+
+
 
 //linea que comente para usar el email
 
@@ -120,19 +154,22 @@ const sendEmail = (e) => {
                                   type="text"
                                   name="from_name"
                                   className="form-control"
-                                  // id="name"
+                                  id="nombre"
                                   placeholder="nombre"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 4 chars"
-                                  // value={user.username} 
+                                  value={fields.nombre} 
+                                  onChange={handleFieldChange}
+                                   // value={user.email} 
                                   // onChange={(text) => { 
-                                  //   changeUserName({ username: text})
-                                  //     user.username = text;
-                                  //     dispatcher(actionSaveInfoUser(user.username));
+                                  //    changeEmail({ email: text})
+                                  //   //   user.email = text;
+                                  //   //   dispatcher(actionSaveInfoUser(user));
                                   //   }}
                                 />
                                 <div className="validation"></div>
-                              </div>
+                                {/* {errors?.nombre && <small>El campo esta vacio</small>} */}
+                              </div>                             
                             </div>
                             <div className="col-md-12 mb-3">
                               <div className="form-group">
@@ -140,19 +177,23 @@ const sendEmail = (e) => {
                                   type="email"
                                   className="form-control"
                                   name="to_name"
-                                  // id="email"
+                                  id="email"
                                   placeholder="Email"
                                   data-rule="email"
                                   data-msg="Please enter a valid email"
+                                  value={fields.email} 
+                                  onChange={handleFieldChange}
                                   // value={user.email} 
                                   // onChange={(text) => { 
-                                  //   changeEmail({ email: text})
-                                  //     user.email = text;
-                                  //     dispatcher(actionSaveInfoUser(user));
+                                  //    changeEmail({ email: text})
+                                  //   //   user.email = text;
+                                  //   //   dispatcher(actionSaveInfoUser(user));
                                   //   }}
                                 />
                                 <div className="validation"></div>
+                                {/* {errors?.email && <small>El campo esta vacio</small>} */}
                               </div>
+                              
                             </div>
                             <div className="col-md-12 mb-3">
                               <div className="form-group">
@@ -160,18 +201,21 @@ const sendEmail = (e) => {
                                   type="text"
                                   className="form-control"
                                   name="reply_to"
-                                  // id="subject"
+                                  id="asunto"
                                   placeholder="Asunto"
-                                  data-rule="minlen:4"
+                                  data-rule="minlen:8"
                                   data-msg="Please enter at least 8 chars of subject"
+                                  value={fields.asunto} 
+                                  onChange={handleFieldChange}
                                   // value={user.subject} 
                                   // onChange={(text) => { 
-                                  //   changeSubject({ subject: text})
-                                  //     user.subject = text;
-                                  //     dispatcher(actionSaveInfoUser(user));
+                                  //   // changeSubject({ subject: text})
+                                  //   //   user.subject = text;
+                                  //   //   dispatcher(actionSaveInfoUser(user));
                                   //   }}
                                 />
                                 <div className="validation"></div>
+                                {/* {errors?.asunto && <small>{errors.asunto}</small>} */}
                               </div>
                             </div>
                             <div className="col-md-12 mb-3">
@@ -179,18 +223,22 @@ const sendEmail = (e) => {
                                 <textarea
                                   className="form-control"
                                   name="message"
+                                  id='mensaje'
                                   rows="5"
                                   data-rule="required"
                                   data-msg="Please write something for us"
                                   placeholder="Mensaje"
+                                  value={fields.mensaje} 
+                                  onChange={handleFieldChange}
                                   // value={user.message} 
                                   // onChange={(text) => { 
-                                  //   changeMessage({ message: text})
-                                  //     user.message = text;
-                                  //     dispatcher(actionSaveInfoUser(user));
+                                  // changeMessage({ message: text})
+                                  //   //   user.message = text;
+                                  //   //   dispatcher(actionSaveInfoUser(user));
                                   //   }}
                                 ></textarea>
                                 <div className="validation"></div>
+                                {/* {errors?.mensaje && <small className="error-message">{errors.mensaje}</small>} */}
                               </div>
                             </div>
                             <div className="col-md-12">
