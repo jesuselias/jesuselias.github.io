@@ -18,7 +18,7 @@ const initialState = {
 };
 
 function userReducer(state = initialState, action) {
-    console.log(state)
+    // console.log(state)
     switch (action.type) {
         case SIGNUP_USER_REQUEST:
             return {

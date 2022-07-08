@@ -4,6 +4,8 @@ import { actionSaveInfoUser } from '../actions/userAction';
 import Request from '../api';
 import imageOverlay from "../img/earth.jpg";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 
 // const registering = useSelector(state => state.registration.registering);
@@ -32,12 +34,16 @@ function Contact () {
   
 const form = useRef();
 
-const [username, changeUserName] = useState('');
-const [email, changeEmail] = useState('');
-const [subject, changeSubject] = useState('');
-const [message, changeMessage] = useState('');
+const MySwal = withReactContent(Swal)
 
-const [submitted, setSubmitted] = useState(false);
+//------------------useState---------------
+// const [username, changeUserName] = useState('');
+// const [email, changeEmail] = useState('');
+// const [subject, changeSubject] = useState('');
+// const [message, changeMessage] = useState('');
+
+// const [submitted, setSubmitted] = useState(false);
+//------------------end--------------------
 // const registering = useSelector(state => state.registration.registering);
 // const dispatch = useDispatch();
 
@@ -52,6 +58,12 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_y6232ba', 'template_6p557yw', form.current, 'rSi7ORVYIvUQ2JrVf')
     .then((result) => {
         console.log(result.text);
+        MySwal.fire({
+          icon: 'success',
+          title: 'Mensaje enviado con exito',
+          text: 'Gracias por su mensaje, me comunico al correo enviado.',
+          position: 'center',
+        })
     }, (error) => {
         console.log(error.text);
     });
@@ -194,29 +206,15 @@ const sendEmail = (e) => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      {/* <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Enlaces de proyectos</h5>
-                      </div>
-                      <div className="more-info">
-                        <a href='https://cearchdev.azurewebsites.net/' >
-                          Portal Prospecto
-                        </a>
-                       <br />
-                        <a href='https://tkad-ft-dev.azurewebsites.net/#/'>
-                          Ticket Quality
-                        </a>
-                      </div>
-                      <br></br>
-                      <br></br> */}
                       <div className="title-box-2 pt-4 pt-md-0">
                         <h5 className="title-left">Contacto</h5>
                       </div>
                       <br />
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> Venezuela Estado Lara</li>
-                        <li><span class="ion-ios-telephone"></span> +584245989356</li>
-                        <li><span class="ion-email"></span> jesus.e.elias.s@gmail.com</li>
-                        <li><span class="ion-email"></span> jesus_e1992@hotmail.com</li>
+                      <ul className="list-ico">
+                        <li><span className="ion-ios-location"></span> Venezuela Estado Lara</li>
+                        <li><span className="ion-ios-telephone"></span> +584245989356</li>
+                        <li><span className="ion-email"></span> jesus.e.elias.s@gmail.com</li>
+                        <li><span className="ion-email"></span> jesus_e1992@hotmail.com</li>
                       </ul>
                       <br />
                       <div className="socials">
