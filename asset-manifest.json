@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.53e3132e.chunk.css",
+    "main.js": "/Portafolio/static/js/main.a2d263b0.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.a2d263b0.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.0fdfc2a7.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.0fdfc2a7.js.map",
+    "static/css/2.242f24fe.chunk.css": "/Portafolio/static/css/2.242f24fe.chunk.css",
+    "static/js/2.225e56d5.chunk.js": "/Portafolio/static/js/2.225e56d5.chunk.js",
+    "static/js/2.225e56d5.chunk.js.map": "/Portafolio/static/js/2.225e56d5.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "precache-manifest.452569550dfadc5298f85fd66573c7fc.js": "/Portafolio/precache-manifest.452569550dfadc5298f85fd66573c7fc.js",
+    "service-worker.js": "/Portafolio/service-worker.js",
+    "static/css/2.242f24fe.chunk.css.map": "/Portafolio/static/css/2.242f24fe.chunk.css.map",
+    "static/css/main.53e3132e.chunk.css.map": "/Portafolio/static/css/main.53e3132e.chunk.css.map",
+    "static/js/2.225e56d5.chunk.js.LICENSE": "/Portafolio/static/js/2.225e56d5.chunk.js.LICENSE",
+    "static/media/dashboard2.jpg": "/Portafolio/static/media/dashboard2.a40216a1.jpg",
+    "static/media/earth.jpg": "/Portafolio/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/foto-perfil-3.png": "/Portafolio/static/media/foto-perfil-3.7417261b.png",
+    "static/media/full-stack2.png": "/Portafolio/static/media/full-stack2.bd0ccc79.png",
+    "static/media/ionicons.css": "/Portafolio/static/media/ionicons.c037dbbc.svg",
+    "static/media/login1.jpg": "/Portafolio/static/media/login1.f4779771.jpg",
+    "static/media/login2.jpg": "/Portafolio/static/media/login2.ab8d8f98.jpg",
+    "static/media/login3.jpg": "/Portafolio/static/media/login3.7a179b1b.jpg",
+    "static/media/myImage.png": "/Portafolio/static/media/myImage.bd80794f.png",
+    "static/media/presentacion.jpg": "/Portafolio/static/media/presentacion.8477c902.jpg",
+    "static/media/si.png": "/Portafolio/static/media/si.00a28cd9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fdfc2a7.js",
+    "static/css/2.242f24fe.chunk.css",
+    "static/js/2.225e56d5.chunk.js",
+    "static/css/main.53e3132e.chunk.css",
+    "static/js/main.a2d263b0.chunk.js"
+  ]
+}
