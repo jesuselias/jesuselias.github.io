@@ -106,7 +106,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "Profesional en ingeniería informática egresado de la Universidad Centro Occidental 'Lisandro Alvarado' (UCLA)"
+            "Profesional en ingeniería informática egresado de la Universidad Centroccidental Lisandro Alvarado (UCLA)"
         }
       ]
     };

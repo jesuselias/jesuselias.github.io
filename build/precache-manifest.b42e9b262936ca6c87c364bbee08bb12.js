@@ -1,31 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1659ac2c5acc7ae9ac1924c734c2e837",
+    "revision": "ccc831b3f2669d662b6155b99e54837b",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "95bdbe15ed90fa953f60",
-    "url": "/Portafolio/static/css/2.242f24fe.chunk.css"
+    "revision": "a952b6a89003754b5533",
+    "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "024d731f08c591f1ad25",
-    "url": "/Portafolio/static/css/main.53e3132e.chunk.css"
+    "revision": "b7250c82437650e54725",
+    "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
   },
   {
-    "revision": "95bdbe15ed90fa953f60",
-    "url": "/Portafolio/static/js/2.225e56d5.chunk.js"
+    "revision": "a952b6a89003754b5533",
+    "url": "/Portafolio/static/js/2.cbc27179.chunk.js"
   },
   {
-    "revision": "f2e097a5fa04a5d1b01656a6cd1a1a1a",
-    "url": "/Portafolio/static/js/2.225e56d5.chunk.js.LICENSE"
+    "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
+    "url": "/Portafolio/static/js/2.cbc27179.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "024d731f08c591f1ad25",
-    "url": "/Portafolio/static/js/main.a2d263b0.chunk.js"
+    "revision": "b7250c82437650e54725",
+    "url": "/Portafolio/static/js/main.266bf071.chunk.js"
   },
   {
-    "revision": "b712c7721d4f74e6a84f",
-    "url": "/Portafolio/static/js/runtime-main.0fdfc2a7.js"
+    "revision": "b602b082f5b144c4dc57",
+    "url": "/Portafolio/static/js/runtime-main.47324fb7.js"
+  },
+  {
+    "revision": "a1197721bd2135af48176158ac4f2056",
+    "url": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg"
+  },
+  {
+    "revision": "0fcb845a10a4987e1c40d13430c0fced",
+    "url": "/Portafolio/static/media/Glew Campaing.0fcb845a.jpg"
+  },
+  {
+    "revision": "882be45b7515c8c12f889e47a466a5b0",
+    "url": "/Portafolio/static/media/Glew.882be45b.jpg"
+  },
+  {
+    "revision": "0c7256db57757bced59869df340e2add",
+    "url": "/Portafolio/static/media/Punkubiz-Contabilidad.0c7256db.jpg"
+  },
+  {
+    "revision": "48e58ca60f287407a8c2f635f4a6655f",
+    "url": "/Portafolio/static/media/buhoo.48e58ca6.jpg"
+  },
+  {
+    "revision": "ffb33488dd350ce51ce421f704e8926d",
+    "url": "/Portafolio/static/media/dashboard.ffb33488.jpg"
   },
   {
     "revision": "a40216a1bb027346d71363eda18afdac",
@@ -56,12 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "7417261bd068aa30eab6ed8adb9253aa",
-    "url": "/Portafolio/static/media/foto-perfil-3.7417261b.png"
+    "revision": "333716632d2ada956dcff809d1e9c68c",
+    "url": "/Portafolio/static/media/foto-perfil-5.33371663.png"
   },
   {
-    "revision": "bd0ccc79526453db15fdcf3fbf90f357",
-    "url": "/Portafolio/static/media/full-stack2.bd0ccc79.png"
+    "revision": "c61c8f3d064dbd7799d17c46f7bf5a92",
+    "url": "/Portafolio/static/media/in.c61c8f3d.png"
   },
   {
     "revision": "05acfdb568b3df49ad31355b19495d4a",
@@ -88,16 +112,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/login2.ab8d8f98.jpg"
   },
   {
-    "revision": "7a179b1b65b90fa221cda8966f0116f7",
-    "url": "/Portafolio/static/media/login3.7a179b1b.jpg"
-  },
-  {
     "revision": "bd80794fddbffb4031fab537cc898680",
     "url": "/Portafolio/static/media/myImage.bd80794f.png"
   },
   {
     "revision": "8477c902b6923f86b805fc2881b36558",
     "url": "/Portafolio/static/media/presentacion.8477c902.jpg"
+  },
+  {
+    "revision": "f78af1e44e1e2debe35dadfb45971811",
+    "url": "/Portafolio/static/media/react-native.f78af1e4.jpg"
+  },
+  {
+    "revision": "fa2f5970e1405c0e6e56c94d2d6b077c",
+    "url": "/Portafolio/static/media/screencapture-buhoo.fa2f5970.png"
   },
   {
     "revision": "00a28cd970a353b724de61455a6dfa10",

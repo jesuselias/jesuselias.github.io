@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portafolio</h3>
                 <p className="subtitle-a">
-                  Ejemplo
+                  Ejemplos
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -259,7 +259,7 @@ class Portfolio extends React.Component {
                             Desarrollo del sistema de asignacion de software es un sistema que permite registar, editar y eliminar los diversos hardware y software; permitiendo asignarle los hadware y software a los usuarios.
                           </p>
                           <span className="w-ctegory">
-                            Bootstrap, Angular 8, C#
+                            tech: Bootstrap, Angular 8, C#
                           </span>
                         </div>
                       </div>

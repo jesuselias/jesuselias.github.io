@@ -2,7 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import styled from "styled-components"
-import logo1 from "../img/foto-perfil-5.png";
+import logo1 from "../img/Foto-perfil-7777.png";
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -38,7 +38,7 @@ class Intro extends React.Component {
                   <Typed
                     strings={[
                       "Full-Stack Developer",
-                      "Mobil Developer",
+                      "Mobile Developer",
                       "Software Engineer",
                     ]}
                     typeSpeed={80}
