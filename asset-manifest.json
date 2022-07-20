@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.96e0b692.chunk.css",
-    "main.js": "/Portafolio/static/js/main.266bf071.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.266bf071.chunk.js.map",
+    "main.js": "/Portafolio/static/js/main.a69a2723.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.a69a2723.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.47324fb7.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.47324fb7.js.map",
     "static/css/2.9f9efda8.chunk.css": "/Portafolio/static/css/2.9f9efda8.chunk.css",
     "static/js/2.cbc27179.chunk.js": "/Portafolio/static/js/2.cbc27179.chunk.js",
     "static/js/2.cbc27179.chunk.js.map": "/Portafolio/static/js/2.cbc27179.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "precache-manifest.b42e9b262936ca6c87c364bbee08bb12.js": "/Portafolio/precache-manifest.b42e9b262936ca6c87c364bbee08bb12.js",
+    "precache-manifest.9abd654adb43df65d36257bf7995b4c1.js": "/Portafolio/precache-manifest.9abd654adb43df65d36257bf7995b4c1.js",
     "service-worker.js": "/Portafolio/service-worker.js",
     "static/css/2.9f9efda8.chunk.css.map": "/Portafolio/static/css/2.9f9efda8.chunk.css.map",
     "static/css/main.96e0b692.chunk.css.map": "/Portafolio/static/css/main.96e0b692.chunk.css.map",
     "static/js/2.cbc27179.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.cbc27179.chunk.js.LICENSE.txt",
     "static/media/Admin-Utility-DHL.jpg": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg",
+    "static/media/Foto-perfil-7777.png": "/Portafolio/static/media/Foto-perfil-7777.5fe3c98f.png",
     "static/media/Glew Campaing.jpg": "/Portafolio/static/media/Glew Campaing.0fcb845a.jpg",
     "static/media/Glew.jpg": "/Portafolio/static/media/Glew.882be45b.jpg",
     "static/media/Punkubiz-Contabilidad.jpg": "/Portafolio/static/media/Punkubiz-Contabilidad.0c7256db.jpg",
@@ -23,7 +24,6 @@
     "static/media/dashboard2.jpg": "/Portafolio/static/media/dashboard2.a40216a1.jpg",
     "static/media/earth.jpg": "/Portafolio/static/media/earth.67af05e1.jpg",
     "static/media/font-awesome.css": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/foto-perfil-5.png": "/Portafolio/static/media/foto-perfil-5.33371663.png",
     "static/media/in.png": "/Portafolio/static/media/in.c61c8f3d.png",
     "static/media/ionicons.css": "/Portafolio/static/media/ionicons.c037dbbc.svg",
     "static/media/login1.jpg": "/Portafolio/static/media/login1.f4779771.jpg",
@@ -39,6 +39,6 @@
     "static/css/2.9f9efda8.chunk.css",
     "static/js/2.cbc27179.chunk.js",
     "static/css/main.96e0b692.chunk.css",
-    "static/js/main.266bf071.chunk.js"
+    "static/js/main.a69a2723.chunk.js"
   ]
 }
