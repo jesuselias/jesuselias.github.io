@@ -48,15 +48,26 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3">
-                <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
-                  role="button"
-                >
-                  Mi Trabajo
-                </a>
-              </p>
+              <div>
+                <p className="pt-3 d-inline-block">
+                  <a
+                    className="btn btn-primary btn js-scroll px-4 mr-3"
+                    href="#work"
+                    role="button"
+                  >
+                    Mi Trabajo
+                  </a>
+                </p>
+                <p className="pt-3 d-inline-block">
+                  <a
+                    className="btn btn-primary btn js-scroll px-4"
+                    href="https://jesuselias.github.io/Experiencia/"
+                    role="button"
+                  >
+                    Experiencia
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
