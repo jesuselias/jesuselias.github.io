@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccc831b3f2669d662b6155b99e54837b",
+    "revision": "6e6c4066e3a33873ab1c92a65607f280",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "a952b6a89003754b5533",
+    "revision": "a6a3eba8255add231795",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "b7250c82437650e54725",
+    "revision": "1449d65c9d40ded8151f",
     "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
   },
   {
-    "revision": "a952b6a89003754b5533",
-    "url": "/Portafolio/static/js/2.cbc27179.chunk.js"
+    "revision": "a6a3eba8255add231795",
+    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.cbc27179.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7250c82437650e54725",
-    "url": "/Portafolio/static/js/main.266bf071.chunk.js"
+    "revision": "1449d65c9d40ded8151f",
+    "url": "/Portafolio/static/js/main.d02511f4.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1197721bd2135af48176158ac4f2056",
     "url": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg"
+  },
+  {
+    "revision": "5fe3c98f15d2efc4bf8bd26c121833d6",
+    "url": "/Portafolio/static/media/Foto-perfil-7777.5fe3c98f.png"
   },
   {
     "revision": "0fcb845a10a4987e1c40d13430c0fced",
@@ -78,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "333716632d2ada956dcff809d1e9c68c",
-    "url": "/Portafolio/static/media/foto-perfil-5.33371663.png"
   },
   {
     "revision": "c61c8f3d064dbd7799d17c46f7bf5a92",

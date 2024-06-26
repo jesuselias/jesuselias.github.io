@@ -13,16 +13,16 @@ class About extends React.Component {
           value: "90" 
         },
         {
-          id: "VueJS_skill",
-          content: "VueJS",
-          porcentage: "90%",
-          value: "90"
+          id: "Vue_skill",
+          content: "Vue",
+          porcentage: "85%",
+          value: "85"
         },
         {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
+          id: "React_skill",
+          content: "React",
+          porcentage: "85%",
+          value: "85"
         },
         {
           id: "React-Native_skill",
@@ -30,25 +30,6 @@ class About extends React.Component {
           porcentage: "85%",
           value: "85"
         },
-        {
-          id: "Materialize_skill",
-          content: "Materialize",
-          porcentage: "90%",
-          value: "90"
-        },
-        {
-          id: "Bootstrap_skill",
-          content: "Bootstrap",
-          porcentage: "90%",
-          value: "90"
-        },
-        { 
-          id: "CSS_skill", 
-          content: "CSS", 
-          porcentage: "90%", 
-          value: "90" 
-        },
-        
         {
           id: "JavaScript_skill",
           content: "JavaScript",
@@ -61,6 +42,12 @@ class About extends React.Component {
           porcentage: "90%",
           value: "90"
         },
+        {
+          id: "Java",
+          content: "Java",
+          porcentage: "85%",
+          value: "85"
+        },
         { 
           id: "HTML5_skill", 
           content: "HTML5", 
@@ -68,10 +55,28 @@ class About extends React.Component {
           value: "90" 
         },
         {
-          id: "NodeJS_skill",
-          content: "NodeJS",
-          porcentage: "50%",
-          value: "50"
+          id: "Materialize_skill",
+          content: "Materialize",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          porcentage: "85%",
+          value: "85"
+        },
+        { 
+          id: "CSS_skill", 
+          content: "CSS", 
+          porcentage: "85%", 
+          value: "85" 
+        },
+        {
+          id: "Node_skill",
+          content: "Node",
+          porcentage: "60%",
+          value: "60"
         },
         {
           id: "C#_skill",
@@ -101,7 +106,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Ingeniero Informático, desarrollador con más experiencia laboral en el área de Front-End; Full-Stack de JavaScript y TypeScript (MEAN, MERN, MEVN), y aplicaciones móviles (React-Native), Experiencia en diversos sistemas de información orientados a la administración, manejo y análisis de datos... Con habilidades en detección y solución de problemas ."
+            "Ingeniero en Informática, Desarrollador de Software con mayor experiencia laboral en el área de Front-End; Full-Stack con experiencia en los lenguajes de programación o framework de JavaScript y TypeScript (MEAN, MERN, MEVN), Java y en aplicaciones móviles (React-Native), he trabajado en diversos sistemas de información orientados en la administración, manejo y análisis de datos. Innovador e Implementador en el desarrollo de software dedicado al estudio, práctica y conocimiento del campo de la informática, con habilidades en detección y solución de problemas."
         },
         {
           id: "third-p-about",
