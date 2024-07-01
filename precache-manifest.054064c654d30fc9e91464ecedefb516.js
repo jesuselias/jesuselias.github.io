@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e6c4066e3a33873ab1c92a65607f280",
+    "revision": "b29a0d851f2382f4bcdd19d05583fdd8",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "a6a3eba8255add231795",
+    "revision": "c3ccb151f4b628bd530d",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "1449d65c9d40ded8151f",
+    "revision": "85ff6f64cd1a605c0a13",
     "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
   },
   {
-    "revision": "a6a3eba8255add231795",
-    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js"
+    "revision": "c3ccb151f4b628bd530d",
+    "url": "/Portafolio/static/js/2.dc1ac225.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.dc1ac225.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1449d65c9d40ded8151f",
-    "url": "/Portafolio/static/js/main.d02511f4.chunk.js"
+    "revision": "85ff6f64cd1a605c0a13",
+    "url": "/Portafolio/static/js/main.bb53181f.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1197721bd2135af48176158ac4f2056",
     "url": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg"
+  },
+  {
+    "revision": "eae26e93455a9d7f365c05cf9959cb0e",
+    "url": "/Portafolio/static/media/Banco.eae26e93.jpg"
   },
   {
     "revision": "5fe3c98f15d2efc4bf8bd26c121833d6",

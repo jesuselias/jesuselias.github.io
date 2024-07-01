@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.96e0b692.chunk.css",
-    "main.js": "/Portafolio/static/js/main.d02511f4.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.d02511f4.chunk.js.map",
+    "main.js": "/Portafolio/static/js/main.bb53181f.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.bb53181f.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.47324fb7.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.47324fb7.js.map",
     "static/css/2.9f9efda8.chunk.css": "/Portafolio/static/css/2.9f9efda8.chunk.css",
-    "static/js/2.f7594f9a.chunk.js": "/Portafolio/static/js/2.f7594f9a.chunk.js",
-    "static/js/2.f7594f9a.chunk.js.map": "/Portafolio/static/js/2.f7594f9a.chunk.js.map",
+    "static/js/2.dc1ac225.chunk.js": "/Portafolio/static/js/2.dc1ac225.chunk.js",
+    "static/js/2.dc1ac225.chunk.js.map": "/Portafolio/static/js/2.dc1ac225.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "precache-manifest.340bd14f2714d3af25f483a8dadb1e7b.js": "/Portafolio/precache-manifest.340bd14f2714d3af25f483a8dadb1e7b.js",
+    "precache-manifest.054064c654d30fc9e91464ecedefb516.js": "/Portafolio/precache-manifest.054064c654d30fc9e91464ecedefb516.js",
     "service-worker.js": "/Portafolio/service-worker.js",
     "static/css/2.9f9efda8.chunk.css.map": "/Portafolio/static/css/2.9f9efda8.chunk.css.map",
     "static/css/main.96e0b692.chunk.css.map": "/Portafolio/static/css/main.96e0b692.chunk.css.map",
-    "static/js/2.f7594f9a.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.f7594f9a.chunk.js.LICENSE.txt",
+    "static/js/2.dc1ac225.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.dc1ac225.chunk.js.LICENSE.txt",
     "static/media/Admin-Utility-DHL.jpg": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg",
+    "static/media/Banco.jpg": "/Portafolio/static/media/Banco.eae26e93.jpg",
     "static/media/Foto-perfil-7777.png": "/Portafolio/static/media/Foto-perfil-7777.5fe3c98f.png",
     "static/media/Glew Campaing.jpg": "/Portafolio/static/media/Glew Campaing.0fcb845a.jpg",
     "static/media/Glew.jpg": "/Portafolio/static/media/Glew.882be45b.jpg",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.47324fb7.js",
     "static/css/2.9f9efda8.chunk.css",
-    "static/js/2.f7594f9a.chunk.js",
+    "static/js/2.dc1ac225.chunk.js",
     "static/css/main.96e0b692.chunk.css",
-    "static/js/main.d02511f4.chunk.js"
+    "static/js/main.bb53181f.chunk.js"
   ]
 }
