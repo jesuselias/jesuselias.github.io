@@ -75,8 +75,8 @@ class About extends React.Component {
         {
           id: "Node_skill",
           content: "Node",
-          porcentage: "60%",
-          value: "60"
+          porcentage: "70%",
+          value: "70"
         },
         {
           id: "C#_skill",

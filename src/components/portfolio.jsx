@@ -14,6 +14,7 @@ import stock9 from "../img/buhoo.jpg";
 import stock10 from "../img/react-native.jpg";
 import stock11 from "../img/Glew.jpg";
 import stock12 from "../img/Glew Campaing.jpg";
+import stock13 from "../img/Banco.jpg";
 
 
 class Portfolio extends React.Component {
@@ -33,6 +34,37 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
+          <div className="col-md-4">
+              <div className="work-box">
+                <a href={stock13} data-lightbox="gallery-mf">
+                  <div className="work-img">
+                    <img src={stock13} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Banco de Chile</h2>
+                        <div className="w-more">
+                          <p>
+                          Continuidad Web del Portal Persona del Banco de Chile Responsable y colaborador del desarrollador Full-Stack 
+                          en el cual he participado en varios Tickets de jira de incidentes, eventos, vulnerabilidades, mejoras.., entre otras actividades colaborativa para el trabajo.
+                          </p>
+                          <span className="w-ctegory">
+                          tech: Angular, Java, Spring Boot, JavaScript y TypeScript
+                          </span>
+                          
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           <div className="col-md-4">
               <div className="work-box">
                 <a href={stock8} data-lightbox="gallery-mf">
