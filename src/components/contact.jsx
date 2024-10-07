@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { actionSaveInfoUser } from '../actions/userAction';
-import Request from '../api';
+import React, { useState, useRef } from 'react';
+//import { useDispatch, useSelector } from 'react-redux';
+//import { actionSaveInfoUser } from '../actions/userAction';
+//import Request from '../api';
 import imageOverlay from "../img/earth.jpg";
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
@@ -55,7 +55,7 @@ const MySwal = withReactContent(Swal)
 //   setUser(user => ({ ...user, [name]: value }));
 //   console.log(user)
 // }
-const [searchItems, setSearchItems] = useState({
+const [searchItems] = useState({
   nombre: "",
   email:"", 
   asunto: "", 
@@ -63,7 +63,7 @@ const [searchItems, setSearchItems] = useState({
 });
 
 
-const [fields, handleFieldChange, getErrors, errors] = useFields({
+const [fields, handleFieldChange, getErrors] = useFields({
   ...searchItems
 });
 
