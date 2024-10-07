@@ -32,7 +32,7 @@ import { Provider } from 'react-redux';
 import configureStore from './store/store';
 
 
-import Axios from './api';
+//import Axios from './api';
 
 const store = configureStore();
 
@@ -42,8 +42,7 @@ const store = configureStore();
 //     test: Config.REACT_APP_TEST_API_BASE_URL,
 //   };
   
-  Axios.baseUrl = 'https://run.mocky.io';
-  console.log('1',Axios.baseUrl);
+//Axios.baseUrl = 'https://run.mocky.io';
 
 
 ReactDOM.render(

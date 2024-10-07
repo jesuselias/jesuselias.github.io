@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e6c4066e3a33873ab1c92a65607f280",
+    "revision": "b5f20a5dd7f35e5af5d0774800ae8a4d",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "a6a3eba8255add231795",
+    "revision": "aed2b2129a0375a5550d",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "1449d65c9d40ded8151f",
-    "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
+    "revision": "6ef90fa936c37dd909ea",
+    "url": "/Portafolio/static/css/main.64680b34.chunk.css"
   },
   {
-    "revision": "a6a3eba8255add231795",
-    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js"
+    "revision": "aed2b2129a0375a5550d",
+    "url": "/Portafolio/static/js/2.26ec6aff.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.f7594f9a.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.26ec6aff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1449d65c9d40ded8151f",
-    "url": "/Portafolio/static/js/main.d02511f4.chunk.js"
+    "revision": "6ef90fa936c37dd909ea",
+    "url": "/Portafolio/static/js/main.1373f5b1.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1197721bd2135af48176158ac4f2056",
     "url": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg"
+  },
+  {
+    "revision": "eae26e93455a9d7f365c05cf9959cb0e",
+    "url": "/Portafolio/static/media/Banco.eae26e93.jpg"
   },
   {
     "revision": "5fe3c98f15d2efc4bf8bd26c121833d6",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
-    "url": "/Portafolio/static/media/fontawesome-webfont.acf3dcb7.svg"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/Portafolio/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -100,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "c037dbbc0e6790f30e824a50010df5fb",
-    "url": "/Portafolio/static/media/ionicons.c037dbbc.svg"
+    "revision": "621bd386841f74e0053cb8e67f8a0604",
+    "url": "/Portafolio/static/media/ionicons.621bd386.svg"
   },
   {
     "revision": "f4779771779739a6361cd1993cd53acc",
@@ -110,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab8d8f9846a939f45b19be510e1931a1",
     "url": "/Portafolio/static/media/login2.ab8d8f98.jpg"
-  },
-  {
-    "revision": "bd80794fddbffb4031fab537cc898680",
-    "url": "/Portafolio/static/media/myImage.bd80794f.png"
   },
   {
     "revision": "8477c902b6923f86b805fc2881b36558",
