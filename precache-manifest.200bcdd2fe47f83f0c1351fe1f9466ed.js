@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5962aad6fffad0e71f9309a5c5d01d93",
+    "revision": "1aa2a50dc88e4b9dcfbaebd140180cf2",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "c3ccb151f4b628bd530d",
+    "revision": "d63cd4a300dd7885a31a",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "13d5c028479a0c2df8ba",
-    "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
+    "revision": "caf8eea70158a5ad4952",
+    "url": "/Portafolio/static/css/main.64680b34.chunk.css"
   },
   {
-    "revision": "c3ccb151f4b628bd530d",
-    "url": "/Portafolio/static/js/2.dc1ac225.chunk.js"
+    "revision": "d63cd4a300dd7885a31a",
+    "url": "/Portafolio/static/js/2.f91e1460.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.dc1ac225.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.f91e1460.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13d5c028479a0c2df8ba",
-    "url": "/Portafolio/static/js/main.b22a102b.chunk.js"
+    "revision": "caf8eea70158a5ad4952",
+    "url": "/Portafolio/static/js/main.6576b6bf.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
-    "url": "/Portafolio/static/media/fontawesome-webfont.acf3dcb7.svg"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/Portafolio/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "c037dbbc0e6790f30e824a50010df5fb",
-    "url": "/Portafolio/static/media/ionicons.c037dbbc.svg"
+    "revision": "621bd386841f74e0053cb8e67f8a0604",
+    "url": "/Portafolio/static/media/ionicons.621bd386.svg"
   },
   {
     "revision": "f4779771779739a6361cd1993cd53acc",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab8d8f9846a939f45b19be510e1931a1",
     "url": "/Portafolio/static/media/login2.ab8d8f98.jpg"
-  },
-  {
-    "revision": "bd80794fddbffb4031fab537cc898680",
-    "url": "/Portafolio/static/media/myImage.bd80794f.png"
   },
   {
     "revision": "8477c902b6923f86b805fc2881b36558",
