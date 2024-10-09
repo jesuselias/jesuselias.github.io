@@ -1,20 +1,20 @@
 import React from "react";
 
-//import stock
-import stock from "../img/login1.jpg";
-import stock1 from "../img/login2.jpg";
-import stock2 from "../img/dashboard.jpg";
-import stock3 from "../img/presentacion.jpg";
-import stock4 from "../img/si.png";
-import stock5 from "../img/dashboard2.jpg";
-import stock6 from "../img/Punkubiz-Contabilidad.jpg";
-import stock7 from "../img/Admin-Utility-DHL.jpg";
-import stock8 from "../img/screencapture-buhoo.png";
-import stock9 from "../img/buhoo.jpg";
-import stock10 from "../img/react-native.jpg";
-import stock11 from "../img/Glew.jpg";
-import stock12 from "../img/Glew Campaing.jpg";
-import stock13 from "../img/Banco.jpg";
+//import login1
+import login1 from "../img/login1.jpg";
+import login2 from "../img/login2.jpg";
+import dashboard from "../img/dashboard.jpg";
+import presentacion from "../img/presentacion.jpg";
+import si from "../img/si.png";
+import dashboard2 from "../img/dashboard2.jpg";
+import punkubiz from "../img/Punkubiz-Contabilidad.jpg";
+import adminUtlity from "../img/Admin-Utility-DHL.jpg";
+import buhoo from "../img/screencapture-buhoo.png";
+import buhoo2 from "../img/buhoo.jpg";
+import reactNative from "../img/react-native.jpg";
+import glew from "../img/Glew.jpg";
+import glewCampaing from "../img/Glew Campaing.jpg";
+import banco from "../img/Banco.jpg";
 
 
 class Portfolio extends React.Component {
@@ -36,10 +36,11 @@ class Portfolio extends React.Component {
           <div className="row">
           <div className="col-md-4">
               <div className="work-box">
-                <a href={stock13} data-lightbox="gallery-mf">
+                <a href={banco} data-lightbox="gallery-banco">
                   <div className="work-img">
-                    <img src={stock13} alt="" className="img-fluid" />
+                    <img src={banco} alt="" className="img-fluid" />
                   </div>
+                  <button className="close-button">&times;</button>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
@@ -67,9 +68,9 @@ class Portfolio extends React.Component {
             </div>
           <div className="col-md-4">
               <div className="work-box">
-                <a href={stock8} data-lightbox="gallery-mf">
+                <a href={buhoo} data-lightbox="gallery-buhoo">
                   <div className="work-img">
-                    <img src={stock9} alt="" className="img-fluid" />
+                    <img src={buhoo2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -97,9 +98,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock7} data-lightbox="gallery-mf">
+                <a href={adminUtlity} data-lightbox="gallery-adminUtlity">
                   <div className="work-img">
-                    <img src={stock7} alt="" className="img-fluid" />
+                    <img src={adminUtlity} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -126,9 +127,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock6} data-lightbox="gallery-mf">
+                <a href={punkubiz} data-lightbox="gallery-punkubiz">
                   <div className="work-img">
-                    <img src={stock6} alt="" className="img-fluid" />
+                    <img src={punkubiz} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -155,9 +156,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock11} data-lightbox="gallery-mf">
+                <a href={glew} data-lightbox="gallery-glew">
                   <div className="work-img">
-                    <img src={stock10} alt="" className="img-fluid" />
+                    <img src={reactNative} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -181,8 +182,8 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock12}
-                  data-lightbox="gallery-mf"
+                  href={glewCampaing}
+                  data-lightbox="gallery-glew"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -191,9 +192,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock5} data-lightbox="gallery-mf">
+                <a href={dashboard2} data-lightbox="gallery-dashboard2">
                   <div className="work-img">
-                    <img src={stock5} alt="" className="img-fluid" />
+                    <img src={dashboard2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -216,13 +217,20 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a
+                  href={dashboard}
+                  data-lightbox="gallery-dashboard2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-aguadeluz">
+                <a href={login2} data-lightbox="gallery-login2">
                   <div className="work-img">
-                    <img src={stock1} alt="" className="img-fluid" />
+                    <img src={login2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -249,9 +257,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={login1} data-lightbox="gallery-login1">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={login1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -278,9 +286,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock3} data-lightbox="gallery-medlingos">
+                <a href={presentacion} data-lightbox="gallery-presentacion">
                   <div className="work-img">
-                    <img src={stock3} alt="" className="img-fluid" />
+                    <img src={presentacion} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -307,9 +315,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock4} data-lightbox="gallery-smth">
+                <a href={si} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock4} alt="" className="img-fluid" />
+                    <img src={si} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -329,90 +337,6 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock6}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock7}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock8}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock9}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock10}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock11}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock12}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
                 </a>
               </div>
             </div>
