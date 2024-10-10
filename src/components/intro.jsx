@@ -1,5 +1,5 @@
 import React from 'react';
-import "./stars.scss";
+import "./styles/stars.scss";
 import Typed from "react-typed";
 import styled from "styled-components"
 import logo1 from "../img/Foto-perfil-7777.png";

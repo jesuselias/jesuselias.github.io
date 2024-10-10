@@ -40,7 +40,6 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={banco} alt="" className="img-fluid" />
                   </div>
-                  <button className="close-button">&times;</button>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">

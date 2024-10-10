@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.64680b34.chunk.css",
-    "main.js": "/Portafolio/static/js/main.1373f5b1.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.1373f5b1.chunk.js.map",
+    "main.js": "/Portafolio/static/js/main.6b90b213.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.6b90b213.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.47324fb7.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.47324fb7.js.map",
     "static/css/2.9f9efda8.chunk.css": "/Portafolio/static/css/2.9f9efda8.chunk.css",
-    "static/js/2.26ec6aff.chunk.js": "/Portafolio/static/js/2.26ec6aff.chunk.js",
-    "static/js/2.26ec6aff.chunk.js.map": "/Portafolio/static/js/2.26ec6aff.chunk.js.map",
+    "static/js/2.54202336.chunk.js": "/Portafolio/static/js/2.54202336.chunk.js",
+    "static/js/2.54202336.chunk.js.map": "/Portafolio/static/js/2.54202336.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "precache-manifest.af4a6136fa52fdf14f0316a5dc56a8e4.js": "/Portafolio/precache-manifest.af4a6136fa52fdf14f0316a5dc56a8e4.js",
+    "precache-manifest.9fb2c68c98ceae1a5bd588812740b38c.js": "/Portafolio/precache-manifest.9fb2c68c98ceae1a5bd588812740b38c.js",
     "service-worker.js": "/Portafolio/service-worker.js",
     "static/css/2.9f9efda8.chunk.css.map": "/Portafolio/static/css/2.9f9efda8.chunk.css.map",
     "static/css/main.64680b34.chunk.css.map": "/Portafolio/static/css/main.64680b34.chunk.css.map",
-    "static/js/2.26ec6aff.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.26ec6aff.chunk.js.LICENSE.txt",
+    "static/js/2.54202336.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.54202336.chunk.js.LICENSE.txt",
     "static/media/Admin-Utility-DHL.jpg": "/Portafolio/static/media/Admin-Utility-DHL.a1197721.jpg",
     "static/media/Banco.jpg": "/Portafolio/static/media/Banco.eae26e93.jpg",
     "static/media/Foto-perfil-7777.png": "/Portafolio/static/media/Foto-perfil-7777.5fe3c98f.png",
     "static/media/Glew Campaing.jpg": "/Portafolio/static/media/Glew Campaing.0fcb845a.jpg",
     "static/media/Glew.jpg": "/Portafolio/static/media/Glew.882be45b.jpg",
+    "static/media/MeGusta3.png": "/Portafolio/static/media/MeGusta3.1eef9b25.png",
     "static/media/Punkubiz-Contabilidad.jpg": "/Portafolio/static/media/Punkubiz-Contabilidad.0c7256db.jpg",
     "static/media/buhoo.jpg": "/Portafolio/static/media/buhoo.48e58ca6.jpg",
     "static/media/dashboard.jpg": "/Portafolio/static/media/dashboard.ffb33488.jpg",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.47324fb7.js",
     "static/css/2.9f9efda8.chunk.css",
-    "static/js/2.26ec6aff.chunk.js",
+    "static/js/2.54202336.chunk.js",
     "static/css/main.64680b34.chunk.css",
-    "static/js/main.1373f5b1.chunk.js"
+    "static/js/main.6b90b213.chunk.js"
   ]
 }
