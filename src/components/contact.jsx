@@ -289,6 +289,17 @@ const sendEmail = (e) => {
                               </span>
                             </a>
                           </li>
+                          <li>
+                            <a
+                              href="https://www.youtube.com/watch?v=Kn2vPoNENks&t=60s"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-youtube"></i>
+                              </span>
+                            </a>
+                          </li>
                         </ul>
                       </div>
 
