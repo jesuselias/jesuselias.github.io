@@ -291,7 +291,7 @@ const sendEmail = (e) => {
                           </li>
                           <li>
                             <a
-                              href="https://www.youtube.com/watch?v=Kn2vPoNENks&t=60s"
+                              href="https://www.youtube.com/watch?v=Kn2vPoNENks"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

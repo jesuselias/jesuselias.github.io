@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7670ed98f406ee0b023001737587ede6",
+    "revision": "5a58beabe24ba0faa3202a94c38e3576",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "c19178e7ea31f68844ab",
+    "revision": "48430e5d9b14e60d1e30",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "c0f047500df23ddaa897",
-    "url": "/Portafolio/static/css/main.64680b34.chunk.css"
+    "revision": "11a32958bd9ede64f2bd",
+    "url": "/Portafolio/static/css/main.96e0b692.chunk.css"
   },
   {
-    "revision": "c19178e7ea31f68844ab",
-    "url": "/Portafolio/static/js/2.54202336.chunk.js"
+    "revision": "48430e5d9b14e60d1e30",
+    "url": "/Portafolio/static/js/2.2bbbe8c4.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.54202336.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.2bbbe8c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0f047500df23ddaa897",
-    "url": "/Portafolio/static/js/main.6b90b213.chunk.js"
+    "revision": "11a32958bd9ede64f2bd",
+    "url": "/Portafolio/static/js/main.6871b884.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/Portafolio/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/Portafolio/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "621bd386841f74e0053cb8e67f8a0604",
-    "url": "/Portafolio/static/media/ionicons.621bd386.svg"
+    "revision": "c037dbbc0e6790f30e824a50010df5fb",
+    "url": "/Portafolio/static/media/ionicons.c037dbbc.svg"
   },
   {
     "revision": "f4779771779739a6361cd1993cd53acc",
