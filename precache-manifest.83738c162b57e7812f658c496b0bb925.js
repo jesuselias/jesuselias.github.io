@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68154a0b7aa55ce1048a91e21a7d6be0",
+    "revision": "6d874be6ba214ad71847264785279dcf",
     "url": "/Portafolio/index.html"
   },
   {
-    "revision": "623d4bc258c6547cb602",
+    "revision": "84b6b5556d6808c0369b",
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "e195a4c9623617545552",
-    "url": "/Portafolio/static/css/main.dccdb895.chunk.css"
+    "revision": "92418af2d7f1a2245fdf",
+    "url": "/Portafolio/static/css/main.64680b34.chunk.css"
   },
   {
-    "revision": "623d4bc258c6547cb602",
-    "url": "/Portafolio/static/js/2.78caa64f.chunk.js"
+    "revision": "84b6b5556d6808c0369b",
+    "url": "/Portafolio/static/js/2.8bf0b912.chunk.js"
   },
   {
     "revision": "0d8b14b05bd669c52b0986b9e1634fb5",
-    "url": "/Portafolio/static/js/2.78caa64f.chunk.js.LICENSE.txt"
+    "url": "/Portafolio/static/js/2.8bf0b912.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e195a4c9623617545552",
-    "url": "/Portafolio/static/js/main.9d0a605b.chunk.js"
+    "revision": "92418af2d7f1a2245fdf",
+    "url": "/Portafolio/static/js/main.f32bcde0.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/Glew.882be45b.jpg"
   },
   {
-    "revision": "1eef9b25afb9e25c2cf561653e30be65",
-    "url": "/Portafolio/static/media/MeGusta3.1eef9b25.png"
-  },
-  {
     "revision": "0c7256db57757bced59869df340e2add",
     "url": "/Portafolio/static/media/Punkubiz-Contabilidad.0c7256db.jpg"
   },
@@ -76,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
-    "url": "/Portafolio/static/media/fontawesome-webfont.acf3dcb7.svg"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/Portafolio/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -108,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "c037dbbc0e6790f30e824a50010df5fb",
-    "url": "/Portafolio/static/media/ionicons.c037dbbc.svg"
+    "revision": "621bd386841f74e0053cb8e67f8a0604",
+    "url": "/Portafolio/static/media/ionicons.621bd386.svg"
   },
   {
     "revision": "f4779771779739a6361cd1993cd53acc",
