@@ -87,7 +87,13 @@ const sendEmail = (e) => {
           title: 'Mensaje enviado con exito',
           text: 'Gracias por su mensaje, me comunico al correo enviado.',
           position: 'center',
-        })
+        }).then(() => {
+          // Resetear los campos aquí
+          handleFieldChange({ target: { name: 'nombre', value: '' } });
+          handleFieldChange({ target: { name: 'email', value: '' } });
+          handleFieldChange({ target: { name: 'asunto', value: '' } });
+          handleFieldChange({ target: { name: 'mensaje', value: '' } });
+        });
       }
     }, (error) => {
       MySwal.fire({

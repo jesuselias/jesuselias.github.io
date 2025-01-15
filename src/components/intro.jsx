@@ -4,7 +4,7 @@ import Typed from "react-typed";
 import styled from "styled-components"
 import logo1 from "../img/Foto-perfil-7777.png";
 import VisitCounter from './VisitCounter';
-import HandEffect from './HandEffect';
+// import HandEffect from './HandEffect';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -18,34 +18,32 @@ const Img = styled.img`
 `;
 
 const CounterContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   margin-top: 117px;
 `;
 
-const LikeButton = styled.button`
-  background-color: #007bff;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-`;
+// const LikeButton = styled.button`
+//   background-color: #007bff;
+//   border: none;
+//   color: white;
+//   padding: 10px 20px;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
+//   cursor: pointer;
+//   border-radius: 5px;
+// `;
 
-const LikeCounter = styled.span`
-  background-color: #56afc4;
-  color: white;
-  padding: 10px 17px;
-  border-radius: 50%;
-  font-weight: bold;
-  margin-left: 10px;
+// const LikeCounter = styled.span`
+//   background-color: #56afc4;
+//   color: white;
+//   padding: 10px 17px;
+//   border-radius: 50%;
+//   font-weight: bold;
+//   margin-left: 10px;
 
-`;
+// `;
 
 class Intro extends React.Component {
   constructor(props) {
@@ -109,7 +107,7 @@ class Intro extends React.Component {
                 </strong>
               </p>
               <div>
-                <p className="pt-3 d-inline-block">
+                {/* <p className="pt-3 d-inline-block">
                   <a
                     className="btn btn-primary btn js-scroll px-4 mr-3"
                     href="#work"
@@ -117,7 +115,7 @@ class Intro extends React.Component {
                   >
                     Mi Trabajo
                   </a>
-                </p>
+                </p> */}
                 <p className="pt-3 d-inline-block">
                   <a
                     className="btn btn-primary btn js-scroll px-4"
@@ -130,13 +128,13 @@ class Intro extends React.Component {
               </div>
               <CounterContainer>
                 <VisitCounter />
-                <LikeCounter>{this.state.likes}</LikeCounter>
-                <div style={{display: 'flex', alignItems: 'center'}}>
+                {/* <LikeCounter>{this.state.likes}</LikeCounter> */}
+                {/* <div style={{display: 'flex', alignItems: 'center'}}>
                   <LikeButton onClick={this.handleClick}>
                     Me gusta
                   </LikeButton>
                   {this.state.handVisible && <HandEffect isVisible={true} />}
-                </div>
+                </div> */}
               </CounterContainer>
             </div>
           </div>
