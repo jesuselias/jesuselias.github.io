@@ -152,16 +152,57 @@ function Contact() {
                       </form>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 text-center">
                     <div className="title-box-2 pt-4 pt-md-0">
                       <h5 className="title-left">Contacto</h5>
                     </div>
-                    <ul className="list-ico">
-                      <li><span className="ion-ios-location"></span> Venezuela, Estado Lara</li>
-                      <li><span className="ion-ios-telephone"></span> +584245989356</li>
-                      <li><span className="ion-email"></span> jesus.e.elias.s@gmail.com</li>
-                      <li><span className="ion-email"></span> jesus_e1992@hotmail.com</li>
-                    </ul>
+                    <br />
+                    <div style={{ marginLeft: '150px' }}>
+                        <ul className="list-ico text-left" >
+                          <li><span className="ion-ios-location"></span> Venezuela Estado Lara</li>
+                          <li><span className="ion-ios-telephone"></span> +584245989356</li>
+                          <li><span className="ion-email"></span> jesus.e.elias.s@gmail.com</li>
+                          <li><span className="ion-email"></span> jesus_e1992@hotmail.com</li>
+                        </ul>
+                      </div>
+                      <br />
+                      <div className="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://github.com/jesuselias"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/jesus-e-elias-s-8b0345148/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.youtube.com/watch?v=Kn2vPoNENks"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-youtube"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                   </div>
                 </div>
               </div>
