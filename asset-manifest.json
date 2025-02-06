@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.64680b34.chunk.css",
-    "main.js": "/Portafolio/static/js/main.ca953214.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.ca953214.chunk.js.map",
+    "main.js": "/Portafolio/static/js/main.278581ba.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.278581ba.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.47324fb7.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.47324fb7.js.map",
     "static/css/2.9f9efda8.chunk.css": "/Portafolio/static/css/2.9f9efda8.chunk.css",
     "static/js/2.a15d7061.chunk.js": "/Portafolio/static/js/2.a15d7061.chunk.js",
     "static/js/2.a15d7061.chunk.js.map": "/Portafolio/static/js/2.a15d7061.chunk.js.map",
     "index.html": "/Portafolio/index.html",
-    "precache-manifest.fc6343c11a40bcad73a6cbed1a402cf8.js": "/Portafolio/precache-manifest.fc6343c11a40bcad73a6cbed1a402cf8.js",
+    "precache-manifest.3b07f52b01cb1042e75bfde135ab703b.js": "/Portafolio/precache-manifest.3b07f52b01cb1042e75bfde135ab703b.js",
     "service-worker.js": "/Portafolio/service-worker.js",
     "static/css/2.9f9efda8.chunk.css.map": "/Portafolio/static/css/2.9f9efda8.chunk.css.map",
     "static/css/main.64680b34.chunk.css.map": "/Portafolio/static/css/main.64680b34.chunk.css.map",
@@ -19,13 +19,13 @@
     "static/media/Foto-perfil-7777.png": "/Portafolio/static/media/Foto-perfil-7777.5fe3c98f.png",
     "static/media/Glew Campaing.jpg": "/Portafolio/static/media/Glew Campaing.0fcb845a.jpg",
     "static/media/Glew.jpg": "/Portafolio/static/media/Glew.882be45b.jpg",
+    "static/media/JE-Blue.png": "/Portafolio/static/media/JE-Blue.9f84ba9e.png",
     "static/media/Punkubiz-Contabilidad.jpg": "/Portafolio/static/media/Punkubiz-Contabilidad.0c7256db.jpg",
     "static/media/buhoo.jpg": "/Portafolio/static/media/buhoo.48e58ca6.jpg",
     "static/media/dashboard.jpg": "/Portafolio/static/media/dashboard.ffb33488.jpg",
     "static/media/dashboard2.jpg": "/Portafolio/static/media/dashboard2.a40216a1.jpg",
     "static/media/earth.jpg": "/Portafolio/static/media/earth.67af05e1.jpg",
     "static/media/font-awesome.css": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/in.png": "/Portafolio/static/media/in.c61c8f3d.png",
     "static/media/ionicons.css": "/Portafolio/static/media/ionicons.621bd386.svg",
     "static/media/login1.jpg": "/Portafolio/static/media/login1.f4779771.jpg",
     "static/media/login2.jpg": "/Portafolio/static/media/login2.ab8d8f98.jpg",
@@ -39,6 +39,6 @@
     "static/css/2.9f9efda8.chunk.css",
     "static/js/2.a15d7061.chunk.js",
     "static/css/main.64680b34.chunk.css",
-    "static/js/main.ca953214.chunk.js"
+    "static/js/main.278581ba.chunk.js"
   ]
 }

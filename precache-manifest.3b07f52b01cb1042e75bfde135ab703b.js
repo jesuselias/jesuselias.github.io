@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a058d084e6f82c0c3eb805316399fe2",
+    "revision": "8d33de47d0f61fca83c331bae4352ccb",
     "url": "/Portafolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/css/2.9f9efda8.chunk.css"
   },
   {
-    "revision": "063bfea7d2a1b3908508",
+    "revision": "fb9f3e2b61ecd88b0782",
     "url": "/Portafolio/static/css/main.64680b34.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portafolio/static/js/2.a15d7061.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "063bfea7d2a1b3908508",
-    "url": "/Portafolio/static/js/main.ca953214.chunk.js"
+    "revision": "fb9f3e2b61ecd88b0782",
+    "url": "/Portafolio/static/js/main.278581ba.chunk.js"
   },
   {
     "revision": "b602b082f5b144c4dc57",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "882be45b7515c8c12f889e47a466a5b0",
     "url": "/Portafolio/static/media/Glew.882be45b.jpg"
+  },
+  {
+    "revision": "9f84ba9ecce3560c2faeca0679bd5e69",
+    "url": "/Portafolio/static/media/JE-Blue.9f84ba9e.png"
   },
   {
     "revision": "0c7256db57757bced59869df340e2add",
@@ -86,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Portafolio/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "c61c8f3d064dbd7799d17c46f7bf5a92",
-    "url": "/Portafolio/static/media/in.c61c8f3d.png"
   },
   {
     "revision": "05acfdb568b3df49ad31355b19495d4a",
